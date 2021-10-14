@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+    
+
+        
+        
+        <div>
+            <h1>Cadastro de Desenvolvedores</h1>
+        </div>
+
+    
+
+        <form id="formcadastro">
+            
+           
+            <div class="dadospessoais">
+                
+                <div>
+                    <label for="email">Digite seu email</label>
+                    <input text="Digite seu email" name="email" id="email">
+                    <span class = "error"></span>
+
+                </div>
+
+                <div>
+                    <label for="firstname">Digite seu nome</label>
+                    <input text="Digite seu nome" name="firstname" id="firstname">
+                    <span class="error"></span>
+                    
+                </div>
+
+                <div>
+                    <label for="lastname">Digite seu sobrenome</label>
+                    <input type="Digite seu sobrenome" name="lastname" id="lastname">
+                    <span class="error"></span>
+                </div>
+            </div>
+         
+
+            <div class ="aplicacoes">
+                <label for=""><a>Qual aplicação desenvolve?</a></label> 
+                    <input type="radio" name="DevWeb" value="Front-End" checked> Front-End
+                
+                <label  >
+                <input type="radio" name="DevWeb" value="Back- End"> Back-End
+            </label>
+            <label>
+                
+                <input type="radio" name="DevWeb" value="Full Stack"> Full Stack
+            </label>
+                
+            </div>
+
+            <div>
+                <label>Nível</label>
+                <select name="nivel">
+                    <option selected disabled value="">--Selecione--</option>
+                    <option value="">Sênior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Junior</option>
+                </select> <br><br>
+            </div>
+            <div>
+              
+                    <Span class="span">Selecione suas Tecnologias</Span>
+                    
+                    <BR></BR>
+                    <input type="checkbox" name="tecnologia1" value="tecnologia1">
+                    <label for="tecnologia1">HTML</label>
+
+                    <label>
+                    <input type="checkbox" name="tecnologia2" value="tecnologia2">
+                    <label for="tecnologia2">CSS</label>
+
+                    <label>
+                    <input type="checkbox" name="tecnologia3" value="tecnologia3">
+                    <label for="tecnologia3">Java Script</label>
+
+                    <label>
+                    <input type="checkbox" name="tecnologia4" value="tecnologia4">
+                    <label for="tecnologia4">PHP</label>
+
+                    <label>
+                    <input type="checkbox" name="tecnologia5" value="tecnologia5">
+                    <label for="tecnologia5">React</label>
+              
+            </div>
+
+            <div class="footer">
+                <label for="">Fale sobre sua experiência</label><br>
+                <textarea name="experiencia" id="experiencia" cols="50" rows="10" ></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        
+        </form>
+        
+    
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
